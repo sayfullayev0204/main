@@ -13,14 +13,15 @@ SECRET_KEY = 'django-insecure-m#x(u%^!boavv(#_+1fx@4y2n9_14g444%o*yr558dc^qr=9ck
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["phoenix-rapid-factually.ngrok-free.app","127.0.0.1","localhost","f7bc-95-214-211-222.ngrok-free.app","zaybal-7wb9.onrender.com"]
+ALLOWED_HOSTS = ["coder90.uz","127.0.0.1","localhost","f7bc-95-214-211-222.ngrok-free.app","zaybal-7wb9.onrender.com"]
 
 
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Allow your frontend's domain
     "https://f7bc-95-214-211-222.ngrok-free.app",  # Allow your ngrok domain
-    "https://zaybal-7wb9.onrender.com"
+    "https://zaybal-7wb9.onrender.com",
+    'https://coder90.uz'
 ]
 CORS_ALLOWED_ORIGIN_REGEXES = [
     r"^https://.*\.ngrok-free\.app$",  # Ngrok URL-larini qo‘llab-quvvatlash
